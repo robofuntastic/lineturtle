@@ -21,3 +21,24 @@ Follow these steps to get started with your Lineturtle robot:
 2. Clone this repository to your ROS workspace:
    ```shell
    git clone https://github.com/robofuntastic/lineturtle.git
+3. Install dependencies
+4. Build the ROS package and install dependencies:
+   ```shell
+   cd  ..
+   colcon build --symlink-install
+5. Configure your robot's hardware and connections as described in the guide.
+
+
+Contributing
+We welcome contributions and suggestions from the community! If you find issues, want to suggest enhancements, or contribute to the codebase, please check out our Contribution Guidelines.
+
+Support
+If you have questions, need assistance, or want to share your Lineturtle experiences, feel free to join our Discord Community.
+
+License
+This project is licensed under the MIT License.
+
+Unlock the world of robotics, creativity, and learning with Lineturtle by RoboFuntastic. Start building and exploring today!
+
+RoboFuntastic YouTube Channel
+Udemy Course
