@@ -19,11 +19,11 @@ Follow these steps to get started with your Lineturtle robot:
    ```shell
    cd ros2_ws/src/
    
-2. Clone this repository to your ROS workspace:
+2. Clone this repository to your ROS2 workspace:
    ```shell
    git clone https://github.com/robofuntastic/lineturtle.git
 3. Install dependencies
-4. Build the ROS package and install dependencies:
+4. Build the ROS2 package and install dependencies:
    ```shell
    cd  ..
    colcon build --symlink-install
