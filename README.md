@@ -14,7 +14,10 @@ Welcome to the Lineturtle ROS2 package repository! Lineturtle is an exciting pro
 ## Getting Started
 
 Follow these steps to get started with your Lineturtle robot:
-
-1. Clone this repository to your ROS workspace:
+1. Go to your workspace:
+   ```shell
+   cd ros2_ws/src/
+   
+2. Clone this repository to your ROS workspace:
    ```shell
    git clone https://github.com/robofuntastic/lineturtle.git
