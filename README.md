@@ -6,10 +6,11 @@ Welcome to the Lineturtle ROS2 package repository! Lineturtle is an exciting pro
 
 ## Features
 
-- Build a physical drawing robot that creates intricate patterns and designs on different surfaces.
-- Learn ROS2 essentials and MicroROS integration in a hands-on and interactive way.
-- Control the robot's movements, marker placement, LEDs, and more using ROS2 topics and command-line control.
-- Ideal for beginners and enthusiasts who want to explore robotics, programming, and creativity.
+- `/servo`: Control the servo for marker placement on the drawing surface.
+- `/LEDs`: Manage the LEDs mounted on the robot.
+- `/left_motor_ticks` and `/right_motor_ticks`: Get motor encoder values for left and right wheels.
+- `/battery`: Monitor the battery level of the robot.
+- `/cmd_vel`: Control the movement of the robot.
 
 ## Getting Started
 
