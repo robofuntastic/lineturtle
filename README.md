@@ -61,9 +61,6 @@ Follow these steps to get started with your Lineturtle robot:
 ## Contributing
 We welcome contributions and suggestions from the community! If you find issues, want to suggest enhancements, or contribute to the codebase, please check out [ROS Discourse](https://discourse.ros.org/t/lineturtle-drawing-robot-based-on-esp32-microros-and-ros-2-by-robofuntastic/32940).
 
-## Support
-If you have questions, need assistance, or want to share your Lineturtle experiences, feel free to join our Discord Community.
-
 ## License
 This project is licensed under the MIT License.
 
