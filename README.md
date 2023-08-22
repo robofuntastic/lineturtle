@@ -34,7 +34,29 @@ Follow these steps to get started with your Lineturtle robot:
    rosdep install --from-paths src --ignore-src -r -y
    colcon build --symlink-install
    source install/local_setup.bash
-6. Configure your robot's hardware and connections as described in the guide.
+6. Edit the config file /teleop_twist_joy/config/xbox.config.yaml, clear it and paste this
+   ```shell
+   teleop_twist_joy_node:
+     ros__parameters:
+       axis_linear: # right thumb stick vertical
+         x: 4
+       scale_linear:
+         x: 0.15
+       scale_linear_turbo:
+         x: 0.3
+       axis_angular: # right thumb stick horizontal
+         yaw: 3
+       scale_angular:
+         yaw: 0.2
+       scale_angular_turbo:
+         yaw: 0.4
+       enable_button: 6 # Left trigger button
+       enable_turbo_button: 4 # left trigger button
+
+7. Launch the lineturtle robot
+   ```shell
+   ros2 launch lineturtle lineturtle_launch.py
+8. Gather all the components and configure your robot's hardware and connections as described in the [guide](https://github.com/robofuntastic/lineturtle/blob/main/circuit%20%26%20components/LineTurtle%20Circuit%20Diagram.pdf).
 
 
 ## Contributing
