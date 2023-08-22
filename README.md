@@ -52,12 +52,11 @@ Follow these steps to get started with your Lineturtle robot:
          yaw: 0.4
        enable_button: 6 # Left trigger button
        enable_turbo_button: 4 # left trigger button
-
-7. Launch the lineturtle robot
-   ```shell
-   ros2 launch lineturtle lineturtle_launch.py
+7. 3D print the robot body using these [STL files](https://github.com/robofuntastic/lineturtle/tree/main/CAD%20%26%203D%20Printing).
 8. Gather all the components and configure your robot's hardware and connections as described in the [guide](https://github.com/robofuntastic/lineturtle/blob/main/circuit%20%26%20components/LineTurtle%20Circuit%20Diagram.pdf).
-
+9. Upload the [microros sketch](https://github.com/robofuntastic/lineturtle/blob/main/esp32_microros/lineturtle_esp32_microros/lineturtle_esp32_microros.ino) to ESP32.
+10. Launch the lineturtle robot
+   ```ros2 launch lineturtle lineturtle_launch.py```
 
 ## Contributing
 We welcome contributions and suggestions from the community! If you find issues, want to suggest enhancements, or contribute to the codebase, please check out [ROS Discourse](https://discourse.ros.org/t/lineturtle-drawing-robot-based-on-esp32-microros-and-ros-2-by-robofuntastic/32940).
