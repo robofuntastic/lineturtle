@@ -2,8 +2,8 @@
 
 Welcome to the Lineturtle ROS2 package repository! Lineturtle is an exciting project by RoboFuntastic that lets you build and control your very own drawing robot using ROS2 and MicroROS. This repository contains all the necessary code, resources, and instructions to get you started on this creative and educational journey.
 
-![Lineturtle Robot](images/lineturtle_render_1.png)
-
+[![Lineturtle Robot](images/lineturtle_render_1.png)
+](https://www.youtube.com/@RoboFuntastic)
 ## Features
 
 - `/servo`: Control the servo for marker placement on the drawing surface.
@@ -30,16 +30,16 @@ Follow these steps to get started with your Lineturtle robot:
 5. Configure your robot's hardware and connections as described in the guide.
 
 
-Contributing
+## Contributing
 We welcome contributions and suggestions from the community! If you find issues, want to suggest enhancements, or contribute to the codebase, please check out our Contribution Guidelines.
 
-Support
+## Support
 If you have questions, need assistance, or want to share your Lineturtle experiences, feel free to join our Discord Community.
 
-License
+## License
 This project is licensed under the MIT License.
 
 Unlock the world of robotics, creativity, and learning with Lineturtle by RoboFuntastic. Start building and exploring today!
 
-RoboFuntastic YouTube Channel
-Udemy Course
+# [RoboFuntastic YouTube Channel](https://www.youtube.com/@RoboFuntastic)
+# Udemy Course
