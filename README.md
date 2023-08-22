@@ -22,16 +22,23 @@ Follow these steps to get started with your Lineturtle robot:
 2. Clone this repository to your ROS2 workspace:
    ```shell
    git clone https://github.com/robofuntastic/lineturtle.git
-3. Install dependencies
-4. Build the ROS2 package and install dependencies:
+3. Clone teleop_twist_joy repository (becuse lineturtle depends on the package) to your ROS2 workspace:
+   ```shell
+   git clone https://github.com/ros2/teleop_twist_joy.git -b foxy
+4. Clone micro-ROS-Agent repository (becuse lineturtle depends on the package) to your ROS2 workspace:
+   ```shell
+   git clone https://github.com/micro-ROS/micro-ROS-Agent.git -b foxy
+5. Build the ROS2 package and install dependencies:
    ```shell
    cd  ..
+   rosdep install --from-paths src --ignore-src -r -y
    colcon build --symlink-install
-5. Configure your robot's hardware and connections as described in the guide.
+   source install/local_setup.bash
+6. Configure your robot's hardware and connections as described in the guide.
 
 
 ## Contributing
-We welcome contributions and suggestions from the community! If you find issues, want to suggest enhancements, or contribute to the codebase, please check out our Contribution Guidelines.
+We welcome contributions and suggestions from the community! If you find issues, want to suggest enhancements, or contribute to the codebase, please check out [ROS Discourse](https://discourse.ros.org/t/lineturtle-drawing-robot-based-on-esp32-microros-and-ros-2-by-robofuntastic/32940).
 
 ## Support
 If you have questions, need assistance, or want to share your Lineturtle experiences, feel free to join our Discord Community.
@@ -41,5 +48,6 @@ This project is licensed under the MIT License.
 
 Unlock the world of robotics, creativity, and learning with Lineturtle by RoboFuntastic. Start building and exploring today!
 
-# [RoboFuntastic YouTube Channel](https://www.youtube.com/@RoboFuntastic)
-# Udemy Course
+## [RoboFuntastic YouTube Channel](https://www.youtube.com/@RoboFuntastic)
+## Udemy Course
+## [ROS Discourse Community](https://discourse.ros.org/t/lineturtle-drawing-robot-based-on-esp32-microros-and-ros-2-by-robofuntastic/32940)
