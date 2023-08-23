@@ -66,6 +66,6 @@ This project is licensed under the MIT License.
 
 Unlock the world of robotics, creativity, and learning with Lineturtle by RoboFuntastic. Start building and exploring today!
 
+## [Udemy Course](https://www.udemy.com/course/ros2-for-beginners-build-your-first-robot-with-esp32/?referralCode=F34735B28D1210013C61)
 ## [RoboFuntastic YouTube Channel](https://www.youtube.com/@RoboFuntastic)
-## Udemy Course
 ## [ROS Discourse Community](https://discourse.ros.org/t/lineturtle-drawing-robot-based-on-esp32-microros-and-ros-2-by-robofuntastic/32940)
