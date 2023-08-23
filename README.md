@@ -57,6 +57,8 @@ Follow these steps to get started with your Lineturtle robot:
 9. Upload the [microros sketch](https://github.com/robofuntastic/lineturtle/blob/main/esp32_microros/lineturtle_esp32_microros/lineturtle_esp32_microros.ino) to ESP32.
 10. Launch the lineturtle robot
    ```ros2 launch lineturtle lineturtle_launch.py```
+## Note
+If you get stuck in the configurations, set up Microros agent and JoyStick. You should consider the [Udemy course](https://www.udemy.com/course/ros2-for-beginners-build-your-first-robot-with-esp32/?referralCode=F34735B28D1210013C61). There every step is explained in detail.
 
 ## Contributing
 We welcome contributions and suggestions from the community! If you find issues, want to suggest enhancements, or contribute to the codebase, please check out [ROS Discourse](https://discourse.ros.org/t/lineturtle-drawing-robot-based-on-esp32-microros-and-ros-2-by-robofuntastic/32940).
