@@ -1,4 +1,4 @@
-# Lineturtle ROS2 Package
+# [Lineturtle ROS2 Package](https://www.youtube.com/@RoboFuntastic)
 
 Welcome to the Lineturtle ROS2 package repository! Lineturtle is an exciting project by RoboFuntastic that lets you build and control your very own drawing robot using ROS2 and MicroROS. This repository contains all the necessary code, resources, and instructions to get you started on this creative and educational journey.
 
